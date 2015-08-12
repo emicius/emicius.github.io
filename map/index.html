@@ -36,6 +36,10 @@
         }
 
         layerControl = L.control.layers({},{},{collapsed:false});
+    function pop_DTAKAI(feature, layer) {
+    var popupContent = '<table><tr><th scope="row">ID</th><td>' + Autolinker.link(String(feature.properties['ID'])) + '</td></tr><tr><th scope="row">SALTINIS</th><td>' + Autolinker.link(String(feature.properties['SALTINIS'])) + '</td></tr><tr><th scope="row">ESAMA</th><td>' + Autolinker.link(String(feature.properties['ESAMA'])) + '</td></tr><tr><th scope="row">PRIORIT</th><td>' + Autolinker.link(String(feature.properties['PRIORIT'])) + '</td></tr><tr><th scope="row">DISP</th><td>' + Autolinker.link(String(feature.properties['DISP'])) + '</td></tr><tr><th scope="row">LEN</th><td>' + Autolinker.link(String(feature.properties['LEN'])) + '</td></tr><tr><th scope="row">LOC</th><td>' + Autolinker.link(String(feature.properties['LOC'])) + '</td></tr><tr><th scope="row">EV</th><td>' + Autolinker.link(String(feature.properties['EV'])) + '</td></tr></table>';
+    layer.bindPopup(popupContent);
+    }
 
     function doStyleDTAKAI(feature) {
         switch (feature.properties.SALTINIS) {
@@ -82,6 +86,7 @@
         }
     }
             var json_DTAKAIJSON = new L.geoJson(json_DTAKAI, {
+                onEachFeature: pop_DTAKAI,
                 style: doStyleDTAKAI
             });
             layerOrder[layerOrder.length] = json_DTAKAIJSON;

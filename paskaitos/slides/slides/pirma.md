@@ -6,7 +6,7 @@
 - MXD šablonai
 - Stilių kopijavimas
 - Duomenų saugojimo būdai / DB kūrimas
-- Toolbox (Clip, Select)
+- Duomenų atrinkimas (Clip, Select)
 
 
 
@@ -49,3 +49,13 @@ Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija
 |||
 
 Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB2, Informix, Microsoft SQL Server, Postgre SQL ir Oracle korporatyvinių duomenų bazių.
+
+
+
+# Duomenų atrinkimas
+
+
+## Dalį sluoksnio objektų galima atrinkti keliais būdais:
+-pasirenkant ir išsaugant kaip naują sluoksnį (Data>Export data..)
+-vieno sluoksnio objektus pasirenkant pagal jų poziciją kito sluoksnio objektų atžvilgiu 
+-vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi (Clip).

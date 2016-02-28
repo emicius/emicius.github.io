@@ -4,9 +4,30 @@
 ##Ką apžvelgsim
 
 - MXD šablonai
-- Stilių kopijavimas
+- Sluoksnių failai
 - Duomenų saugojimo būdai / DB kūrimas
 - Duomenų atrinkimas (Clip, Select)
+
+
+
+# Sluoksnių failai (lyr)
+
+
+## ***.lyr** failas saugo:
+
+* sluoksnio metaduomenys;
+* kelias iki vektorinių duomenų (Source);
+* atvaizdavimo parametrai;
+* simbolizacija;
+* sluoksnio užklausos filtas ([[SQL]]);
+* ryšiai;
+* kita informacija.
+
+
+## ***.lyr** failas saugo:
+
+![Layer Properties](./slides/img/clayer_properties.jpg)
+
 
 
 

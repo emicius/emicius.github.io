@@ -63,4 +63,5 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 
 
 ## Clip
+Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 ![Clip](./slides/img/clip_tool.gif)

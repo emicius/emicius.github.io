@@ -26,7 +26,7 @@
 
 ## ***.lyr** failas saugo:
 
-![Layer Properties](./slides/img/clayer_properties.jpg)
+![Layer Properties](./slides/img/layer_properties.jpg)
 
 
 

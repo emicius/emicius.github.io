@@ -60,3 +60,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 - pasirenkant ir išsaugant kaip naują sluoksnį (**Data>Export data..**)
 - vieno sluoksnio objektus pasirenkant pagal jų poziciją kito sluoksnio objektų atžvilgiu 
 - vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi (**Clip**).
+
+
+## Clip
+![Clip](./slides/img/clip_tool.gif)

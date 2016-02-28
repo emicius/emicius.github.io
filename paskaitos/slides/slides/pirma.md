@@ -57,6 +57,6 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 
 ## Dalį sluoksnio objektų galima atrinkti keliais būdais:
 
-- pasirenkant ir išsaugant kaip naują sluoksnį (Data>Export data..)
+- pasirenkant ir išsaugant kaip naują sluoksnį (**Data>Export data..**)
 - vieno sluoksnio objektus pasirenkant pagal jų poziciją kito sluoksnio objektų atžvilgiu 
-- vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi (Clip).
+- vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi (**Clip**).

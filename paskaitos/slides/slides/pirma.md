@@ -49,6 +49,8 @@
 * geometrijos;
 * atributinės informacijos.
 
+
+
 # GIS duomenų saugojimas
 
 
@@ -100,6 +102,19 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 - vieno sluoksnio objektus pasirenkant pagal jų poziciją kito sluoksnio objektų atžvilgiu (**Select by location**)
 - vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi (**Clip**).
 
+
+## Select + export
+
+Pele pasirenkti objektai eksportuojami į naują sluoksnį
+
+![Export data](./slides/img/export_data.jpg)
+
+
+## Select by location + export
+
+![select by location](./slides/img/select_location.jpg)
+
+Objektia išsaugomi atlikus erdvinę užklausą
 
 ## Clip
 Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.

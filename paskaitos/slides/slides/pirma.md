@@ -92,6 +92,21 @@ Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija
 Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB2, Informix, Microsoft SQL Server, Postgre SQL ir Oracle korporatyvinių duomenų bazių.
 
 
+## Privalumai / trūkumai
+
+|Savybė|![SHP failas](./slides/img/shp.png)|![MDB failas](./slides/img/mdb.png)|![GDB failas](./slides/img/gdb.png)|
+|-|-|-|-|
+|Indeksavimas|+-|-|+|
+|Dydžio limitas|2GB|2GB|sl.<1TB|
+|Potipiai|-|-|+|
+|Atviras formatas|+|-|-|
+|Topologija|+-|+|+|
+|Galudinimas|-|+-|+|
+|Rastrų talpinimas|-|+|+|
+|Laukelių pavadinimai|8simb.||64|
+|Atributų ryšiai|-|-|+|
+
+
 
 # Duomenų atrinkimas
 
@@ -114,7 +129,6 @@ Pele pasirenkti objektai eksportuojami į naują sluoksnį
 
 ![select by location](./slides/img/select_location.jpg)
 
-Objektia išsaugomi atlikus erdvinę užklausą
 
 ## Clip
 Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.

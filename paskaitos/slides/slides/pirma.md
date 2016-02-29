@@ -95,7 +95,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 ## Privalumai / trūkumai
 
 |Savybė|![SHP failas](./slides/img/shp.png)|![MDB failas](./slides/img/mdb.png)|![GDB failas](./slides/img/gdb.png)|
-|-|-|-|-|
+|-|:-:|:-:|:-:|
 |Indeksavimas|+-|-|+|
 |Dydžio limitas|2GB|2GB|sl.<1TB|
 |Potipiai|-|-|+|
@@ -103,7 +103,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 |Topologija|+-|+|+|
 |Galudinimas|-|+-|+|
 |Rastrų talpinimas|-|+|+|
-|Laukelių pavadinimai|8simb.||64|
+|Laukelių pavadinimai|8|32|64|
 |Atributų ryšiai|-|-|+|
 
 

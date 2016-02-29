@@ -10,26 +10,44 @@
 
 
 
+# Žemėlapių šablonai
+
+
+## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai:
+
+
+## Šablono kūrimas:
+
+- pašalinami esami sluoksniai 
+- išvalomi teksto laukai
+- padaroma nuotrauka (Thumbnail)
+- SAVE.
+
+
+
 # Sluoksnių failai (lyr)
 
 
 ## ***.lyr** failas saugo:
 
-* sluoksnio metaduomenys;
-* kelias iki vektorinių duomenų (Source);
-* atvaizdavimo parametrai;
-* simbolizacija;
-* sluoksnio užklausos filtas ([[SQL]]);
-* ryšiai;
-* kita informacija.
+* sluoksnio metaduomenis;
+* kelią iki vektorinių duomenų (Source);
+* atvaizdavimo parametrus;
+* simbolizaciją;
+* sluoksnio užklausos filtrą (Definition query);
+* ryšius (joins, relates);
+* kitą informaciją.
 
+
+## ***.lyr** failas saugo visus sluoksnio parametrus:
 
 ![Layer Properties](./slides/img/layer_properties.jpg)
 
 
-## ***.lyr** failas __ne__saugo:
+## ***.lyr** failas nesaugo:
 
-
+* geometrijos;
+* atributinės informacijos.
 
 # GIS duomenų saugojimas
 

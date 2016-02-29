@@ -24,10 +24,10 @@
 * kita informacija.
 
 
-## ***.lyr** failas saugo:
-
 ![Layer Properties](./slides/img/layer_properties.jpg)
 
+
+## ***.lyr** failas __ne__saugo:
 
 
 

@@ -265,6 +265,8 @@ Error message and password prompt
 
 <li>Vektorinių duomenų atrinkimas</li>
 
+<li>Žemėlapių šablonai</li>
+
 </ul>
 </p>
 
@@ -6473,7 +6475,7 @@ Error message and password prompt
 <div created="20160215123023607" creator="Micius" modified="20160218192039795" modifier="Micius" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20160218192028234" creator="Micius" modified="20160228164742847" modifier="Micius" title="$:/state/sidebar">
+<div created="20160218192028234" creator="Micius" modified="20160229185039961" modifier="Micius" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20160215124231161" creator="Micius" modified="20160215124441162" modifier="Micius" title="$:/state/tab--1963855381">
@@ -6500,7 +6502,7 @@ Error message and password prompt
 <div created="20160228164034145" creator="Micius" modified="20160228164034145" modifier="Micius" title="$:/state/toc/Paskaita #1-Duomenų saugojimas--1393082755">
 <pre>open</pre>
 </div>
-<div created="20160228154626527" creator="Micius" modified="20160228212453679" modifier="Micius" title="$:/state/toc/Paskaita #1-Duomenų saugojimas-2011911043">
+<div created="20160228154626527" creator="Micius" modified="20160229185535767" modifier="Micius" title="$:/state/toc/Paskaita #1-Duomenų saugojimas-2011911043">
 <pre>close</pre>
 </div>
 <div created="20160215124136259" creator="M" modified="20160215124150556" modifier="Mcius" title="$:/status/UserName">
@@ -7167,12 +7169,30 @@ Atrenka sluoksnio objektus pagal atributinės lentelės [[SQL užklausą]] atren
 
 Analogiškas //ArcToolbox// įrankis -- [[Select]].</pre>
 </div>
-<div created="20160228185146577" creator="Micius" modified="20160228185919611" modifier="Micius" tags="Selection" title="Select by location">
+<div created="20160228185146577" creator="Micius" modified="20160229193148782" modifier="Micius" tags="Selection" title="Select by location">
 <pre>''Selection &gt; Select by location...''
 
 
 Pasirenka objektus, priklausomai nuo jų padėties kitų objektų atžvilgiu.
 
+//Šis objektų pasirinkimo metodas dar vadinamas erdvine užklausa (Spatial query)//. 
+
+Reikalingas mažiausiai vienas vektorinis sluoksnis, kurio objektai gali būti pasirenkami, tačiau paprastai įrankis naudojamas su dviem ar daugiau sluoksnių.
+
+!!!Pagrindiniai parametrai:
+
+&lt;&lt;&lt;
+;Selection Method
+: pasirinkimo būdas - sukuriamas naujas pasirinkimas, prie esamo pasirinkimo pridedami ar pašalinami objektai arba sukuriamas naujas pasirinkimas, renkantis tik iš jau pasirinktų objektų.
+;Target layers
+:sluoksniai, kurių objektai bus pasirenkami.
+;Source layer
+:sluoksnis, kurio objektai bus naudojami kaip atskaitos geometrija.
+;Spatial selection method for target layer features
+:erdvinės užklausos metodas (susikirtimas, atstumas iki objekto, identiškumas ir kt.) 
+&lt;&lt;&lt;
+
+Šiam įrankiui analogiškas - ''Select Layer by Location'' įrankis ArcToolbox įrankių rinkinyje  ''Data management&gt;Layers and Table Views''.
 </pre>
 </div>
 <div color="#13488a" created="20160228185404980" creator="Micius" modified="20160228214426664" modifier="Micius" tags="Menu" title="Selection">
@@ -7368,7 +7388,7 @@ Be privalomų 3 ***.shp**, ***.dbf** ir ***.shx** failų, kartu gali būti saugo
        style=&quot;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#ffffff&quot;&gt;SHX&lt;/tspan&gt;&lt;/text&gt;
 &lt;/svg&gt;</pre>
 </div>
-<div created="20160228205340507" creator="Micius" modified="20160228212447283" modifier="Micius" tags="[[Paskaita #1]]" title="Sluoksnių failų naudojimas">
+<div created="20160228205340507" creator="Micius" modified="20160229183319278" modifier="Micius" tags="[[Paskaita #1]]" title="Sluoksnių failų naudojimas">
 <pre>Sluoksnių failai (''*.lyr'') skirti išsaugoti žemėlapio sluoksnio informaciją, suteikiant galimybę paprastai perkelti sluoksnius iš vieno ''*.mxd'' failo į kitą, neprarandant atvaizdavimo parametrų. 
 
 Sluoksnio faile saugojami visi žemėlapio sluoksnio parametrai ([[Layer Properties|layer_properties.jpg]]):
@@ -7377,7 +7397,7 @@ Sluoksnio faile saugojami visi žemėlapio sluoksnio parametrai ([[Layer Propert
 * kelias iki vektorinių duomenų (Source);
 * atvaizdavimo parametrai;
 * simbolizacija;
-* sluoksnio užklausos filtas ([[SQL]]);
+* sluoksnio [[SQL]] užklausos filtras ([[Definition query]]);
 * ryšiai;
 * kita informacija.
 
@@ -7395,6 +7415,15 @@ Sluoksnio failą taip pat galima naudoti, norint perkopijuoti sluoksnio simboliz
 * pelės žymekliu pasirenkant reikiamus objektus ir juos išsaugant kaip naują sluoksnį (Data&gt;Export data...);
 * vieno sluoksnio objektus pasirenkant pagal jų poziciją kito sluoksnio objektų atžvilgiu ([[Select by location]]) ir išsaugant kaip naują sluoksnį (Data&gt;[[Export data]]...);
 * vieno sluoksnio objektus apkerpant kito sluoksnio objektų aprėptimi ([[Clip]]).</pre>
+</div>
+<div created="20160229183506348" creator="Micius" modified="20160229185041459" modifier="Micius" tags="[[Paskaita #1]]" title="Žemėlapių šablonai">
+<pre>Žemėlapių šablonai naudojami siekiant standartizuoti rengiamų žemėlapių išvaizdą ar tiesiog palengvinti darbą panaudoajnt ankstesnio darbo rezultatą.
+
+Bet kuris ''*.mxd'' failas gali būti panaudotas kaip naujo žemėlapio šablonas, naujo žemėlapio kūrimo lange, kuriame vaizduojami standartiniai šablonai pasirenkant ''Browse for more...''
+
+Rekomenduojama šablonams skirtuose ''*.mxd'' failuose nenaudoti susiektų paveikslėlių ([[Link]]) ir su konkrečiais projektais susietų gis sluoksnių (tikslinga įtarpti pagrindo sluoksnius iš [[WMS]] ar [[MapServer]] šaltinio), o tekstinius laukelius užpildyti aprašymais, kas turėtų būti įrašoma į laukelį.
+
+Šablonus, skirtus daugkartiniam naudojimui galima išsaugoti sisteminiame kataloge ``%APPDATA%\ESRI\Desktop10.3\ArcMap\Templates\``. Taip išsaugotas šablonas bus visuomet rodomas naujo žemėlapio kūrimo lange, atvaizduojant sukurto šablono nuotrauką (''File&gt;Map document properties&gt;Make Thumbnail''').</pre>
 </div>
 
 </div>

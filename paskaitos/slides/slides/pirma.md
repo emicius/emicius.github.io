@@ -13,6 +13,9 @@
 # Žemėlapių šablonai
 
 
+![Šablonai](./slides/img/sablonas.jpg)
+
+
 ## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai:
 
 
@@ -105,6 +108,13 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 |Laukelių pavadinimai|8|32|64|
 
 
+## PROTIP
+
+![Mess](./slides/img/filenames.png)
+
+Jokia DB neišgelbės nuo kriptografų.
+
+
 
 # Duomenų atrinkimas
 
@@ -132,3 +142,11 @@ Pele pasirenkti objektai eksportuojami į naują sluoksnį
 Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 
 ![Clip](./slides/img/clip_tool.gif)
+
+
+
+# Namų darbai
+
+![Namų darbai](./slides/img/namu_darbai.jpg)
+
+

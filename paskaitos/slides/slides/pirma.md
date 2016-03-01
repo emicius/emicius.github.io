@@ -112,7 +112,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 
 ![Mess](./slides/img/filenames.png)
 
-Jokia DB neišgelbės nuo kriptografų.
+Jokia DB neišgelbės nuo lėtinės kriptografijos.
 
 
 
@@ -150,3 +150,4 @@ Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 ![Namų darbai](./slides/img/namu_darbai.jpg)
 
 
+## kas nori namų darbų / sužinoti daugiau ?

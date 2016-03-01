@@ -13,7 +13,7 @@
 # Žemėlapių šablonai
 
 
-![Šablonai](./slides/./slides/img/sablonas.jpg)
+![Šablonai](./slides/img/sablonas.jpg)
 
 
 ## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai

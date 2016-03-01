@@ -13,7 +13,7 @@
 # Žemėlapių šablonai
 
 
-![Šablonai](img/sablonas.jpg)
+![Šablonai](./slides/./slides/img/sablonas.jpg)
 
 
 ## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai
@@ -44,7 +44,7 @@
 
 ## ***.lyr** failas saugo visus sluoksnio parametrus:
 
-![Layer Properties](img/layer_properties.jpg)
+![Layer Properties](./slides/img/layer_properties.jpg)
 
 
 ## ***.lyr** failas nesaugo:
@@ -61,9 +61,9 @@
 
 |||
 |-|-:|
-|![SHP failas](img/shp.png)|***.shp** saugo geometriją|
-|![DBF failas](img/dbf.png)|***.dbf** saugo atributinius duomenis|
-|![DBF failas](img/shx.png)|***.shx** saugo elementų indeksus|
+|![SHP failas](./slides/img/shp.png)|***.shp** saugo geometriją|
+|![DBF failas](./slides/img/dbf.png)|***.dbf** saugo atributinius duomenis|
+|![DBF failas](./slides/img/shx.png)|***.shx** saugo elementų indeksus|
 |||
 
 Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija - atvira, todėl Shape failo formatą palaiko praktiškai visos su GIS susijusios programos. Nuadojamas apsikeitimui ir nedideliuose projektuose.
@@ -73,7 +73,7 @@ Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija
 
 |||
 |-|-:|
-|![MDB failas](img/mdb.png)|***.mdb** - viename faile visi duomenys|
+|![MDB failas](./slides/img/mdb.png)|***.mdb** - viename faile visi duomenys|
 |||
 
 
@@ -81,7 +81,7 @@ Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija
 
 |||
 |-|-:|
-|![GDB failas](img/gdb.png)|***.gdb** - katalogas su sisteminiais DB failais|
+|![GDB failas](./slides/img/gdb.png)|***.gdb** - katalogas su sisteminiais DB failais|
 |||
 
 
@@ -89,7 +89,7 @@ Note: Tai - labiausiai paplitęs GIS duomenų formatas. Šio failo specifikacija
 
 |||
 |-|-:|
-|![GDB failas](img/enterprise.png)| **ArcSDE** technologijos jungtys su reliacinėmis DB|
+|![GDB failas](./slides/img/enterprise.png)| **ArcSDE** technologijos jungtys su reliacinėmis DB|
 |||
 
 Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB2, Informix, Microsoft SQL Server, Postgre SQL ir Oracle korporatyvinių duomenų bazių.
@@ -97,7 +97,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 
 ## Privalumai / trūkumai
 
-|Savybė|![SHP failas](img/shp.png)|![MDB failas](img/mdb.png)|![GDB failas](img/gdb.png)|
+|Savybė|![SHP failas](./slides/img/shp.png)|![MDB failas](./slides/img/mdb.png)|![GDB failas](./slides/img/gdb.png)|
 |-|:-:|:-:|:-:|
 |Indeksavimas|+-|-|+|
 |Dydžio limitas|2GB|2GB|sl.<1TB|
@@ -110,7 +110,7 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 
 ## PROTIP
 
-![Mess](img/filenames.png)
+![Mess](./slides/img/filenames.png)
 
 Jokia DB neišgelbės nuo lėtinės kriptografijos.
 
@@ -130,25 +130,25 @@ Jokia DB neišgelbės nuo lėtinės kriptografijos.
 
 Pele pasirenkti objektai eksportuojami į naują sluoksnį
 
-![Export data](img/export_data.jpg)
+![Export data](./slides/img/export_data.jpg)
 
 
 ## Select by location + export
 
-![select by location](img/select_location.jpg)
+![select by location](./slides/img/select_location.jpg)
 
 
 ## Clip
 Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 
-![Clip](img/clip_tool.gif)
+![Clip](./slides/img/clip_tool.gif)
 
 
 
 # Namų darbai
 
 
-![Namų darbai](img/namu_darbai.jpg)
+![Namų darbai](./slides/img/namu_darbai.jpg)
 
 
 ## Kas nori namų darbų?

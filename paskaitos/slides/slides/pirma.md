@@ -21,10 +21,10 @@
 
 ## Šablono kūrimas:
 
-- pašalinami esami sluoksniai 
-- išvalomi teksto laukai
-- padaroma nuotrauka (Thumbnail)
-- SAVE.
+- pašalinami esami sluoksniai <!-- .element: class="fragment" data-fragment-index="1" -->
+- išvalomi teksto laukai <!-- .element: class="fragment" data-fragment-index="2" -->
+- padaroma nuotrauką (Thumbnail) <!-- .element: class="fragment" data-fragment-index="3" -->
+- SAVE. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 

@@ -16,7 +16,7 @@
 ![Šablonai](./slides/img/sablonas.jpg)
 
 
-## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai:
+## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai
 
 
 ## Šablono kūrimas:
@@ -147,7 +147,8 @@ Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 
 # Namų darbai
 
+
 ![Namų darbai](./slides/img/namu_darbai.jpg)
 
 
-## kas nori namų darbų / sužinoti daugiau ?
+## Kas nori namų darbų?

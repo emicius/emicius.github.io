@@ -13,15 +13,18 @@
 # Žemėlapių šablonai
 
 
-## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai:
+![Šablonai](./slides/img/sablonas.jpg)
+
+
+## Žemėlapių šablonai - tiesiog "švarūs" *.MXD failai
 
 
 ## Šablono kūrimas:
 
-- pašalinami esami sluoksniai 
-- išvalomi teksto laukai
-- padaroma nuotrauka (Thumbnail)
-- SAVE.
+- pašalinami esami sluoksniai <!-- .element: class="fragment" data-fragment-index="1" -->
+- išvalomi teksto laukai <!-- .element: class="fragment" data-fragment-index="2" -->
+- padaroma nuotrauką (Thumbnail) <!-- .element: class="fragment" data-fragment-index="3" -->
+- SAVE. <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 
@@ -105,6 +108,13 @@ Note: ArcSDE technologija (ArcGIS Server dalis) leidžia prisijungti prie IBM DB
 |Laukelių pavadinimai|8|32|64|
 
 
+## PROTIP
+
+![Mess](./slides/img/filenames.png)
+
+Jokia DB neišgelbės nuo lėtinės kriptografijos.
+
+
 
 # Duomenų atrinkimas
 
@@ -132,3 +142,13 @@ Pele pasirenkti objektai eksportuojami į naują sluoksnį
 Vieno sluoksnio objektai apkerpami pagal kito sluoksnio objektus.
 
 ![Clip](./slides/img/clip_tool.gif)
+
+
+
+# Namų darbai
+
+
+![Namų darbai](./slides/img/namu_darbai.jpg)
+
+
+## Kas nori namų darbų?

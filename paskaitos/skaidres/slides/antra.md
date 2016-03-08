@@ -1,6 +1,11 @@
 # Paskaita #2
 
 
+
+![Stallone](./slides/img/flowers.png)
+
+
+
 ##Ką veiksim
 
 - apsikirpsim GDR pagrindą

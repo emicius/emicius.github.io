@@ -1,19 +1,14 @@
 var size = 0;
-var categories_trasa = {"DT": [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: "rgba(138,163,189,1.0)", lineDash: null, lineCap: 'square', lineJoin: 'miter', width: 4})
-    })],
-"K": [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: "rgba(138,163,189,1.0)", lineDash: [8,8], lineCap: 'flat', lineJoin: 'miter', width: 4})
-    })],
-"S": [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: "rgba(138,163,189,1.0)", lineDash: [1,7], lineCap: 'flat', lineJoin: 'miter', width: 4})
-    })]};
-var styleCache_trasa={}
+
+var styleCache_trasa ={}
 var style_trasa = function(feature, resolution){
-    var value = feature.get("TIPAS");
-    var style = categories_trasa[value];
-    if ("" !== null) {
-        var labelText = String("");
+    var value = ""
+    var size = 0;
+    var style = [ new ol.style.Style({
+        stroke: new ol.style.Stroke({color: "rgba(181,204,239,1.0)", lineDash: null, lineCap: 'square', lineJoin: 'miter', width: 4})
+    })];
+    if (feature.get("ILGIS") !== null) {
+        var labelText = String(feature.get("ILGIS"));
     } else {
         var labelText = ""
     }
@@ -21,7 +16,7 @@ var style_trasa = function(feature, resolution){
 
     if (!styleCache_trasa[key]){
         var text = new ol.style.Text({
-              font: '10.725px Calibri,sans-serif',
+              font: '10.725px SwecoSans,sans-serif',
               text: labelText,
               textBaseline: "center",
               textAlign: "left",

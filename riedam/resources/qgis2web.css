@@ -25,9 +25,9 @@ h1, h2, h4, h5, h6 {
 .logo {
   display: block;
   width: 500px;
-  height: 100px;
+  height: 102px;
   background: url(../img/logo.svg);
-  background-size: 500px 100px;
+  background-size: 500px 102px;
 }
 
 p{

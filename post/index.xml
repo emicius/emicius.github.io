@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Micius</title>
+    <link>http://micius.lt/post/</link>
+    <description>Recent content in Posts on Micius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>lt-lt</language>
+    <lastBuildDate>Fri, 12 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://micius.lt/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>@</title>
+      <link>http://micius.lt/blog/2016/08/12/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://micius.lt/blog/2016/08/12/</guid>
+      <description>&lt;form action=&#34;https://formspree.io/public@micius.lt&#34;
+      method=&#34;POST&#34;&gt;
+      
+    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; placeholder =&#34;El. pašto adresas&#34;/&gt;
+    &lt;input type=&#34;submit&#34; value=&#34;Siųsti&#34;/&gt;
+    &lt;br/&gt;
+    &lt;textarea name=&#34;message&#34; cols=&#34;30&#34; rows=&#34;5&#34; placeholder=&#34;Žinutė&#34;&gt;&lt;/textarea&gt;
+    &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_format&#34; value=&#34;plain&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_subject&#34; value=&#34;Contact via micius.lt&#34; /&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;http://localhost:1313/about/&#34; /&gt;
+
+&lt;/form&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

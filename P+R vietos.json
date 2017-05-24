@@ -5,8 +5,6 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#ca0065",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "VIETA": "Oro uostas. Vaitkaus g. - Rodūnėskelio sankryža",
         "KOMENTARAS": "Transporto surinkimas iš Šalčininkųkrypties. Yra daugiaaukščiai parkingai iraikštelės tinkamos P+R sistemai.Numatoma tolimesnė jų plėtra.",
         "GRUPE": "pagrindiniai P+R"
@@ -22,8 +20,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-size": "medium",
-        "marker-symbol": "",
         "VIETA": "Geležinkelio stotis, Stotiesaikštė",
         "KOMENTARAS": "Transporto surinkimas iš Minsko, Lydos,Pavilnio krypčių. Galinis Vt žiedas irpersėdimo punktas. Parkingo plėtranumatoma perdengiant geležinkelioperonus ir šalia Autobusų stotiesgeležinkelio g.",
         "GRUPE": "pagrindiniai P+R",
@@ -329,8 +325,6 @@
       "type": "Feature",
       "properties": {
         "marker-color": "#8080ff",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "VIETA": "Gariūnų prekybos centras",
         "KOMENTARAS": "Transporto srautų surinkimas iš Kauno,Trakų, Gardino, Rygos, krypčių. Esamųaikštelių Gariūnų—Jočionių g. sankryžoszonoje pritaikymas P+R sistemai",
         "GRUPE": "kiti P+R B+R"

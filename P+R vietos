@@ -1,0 +1,603 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ca0065",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "VIETA": "Oro uostas. Vaitkaus g. - Rodūnėskelio sankryža",
+        "KOMENTARAS": "Transporto surinkimas iš Šalčininkųkrypties. Yra daugiaaukščiai parkingai iraikštelės tinkamos P+R sistemai.Numatoma tolimesnė jų plėtra.",
+        "GRUPE": "pagrindiniai P+R"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.277773966486933,
+          54.64306861636471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "VIETA": "Geležinkelio stotis, Stotiesaikštė",
+        "KOMENTARAS": "Transporto surinkimas iš Minsko, Lydos,Pavilnio krypčių. Galinis Vt žiedas irpersėdimo punktas. Parkingo plėtranumatoma perdengiant geležinkelioperonus ir šalia Autobusų stotiesgeležinkelio g.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28392045582972,
+          54.67073988005055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Senoji Plytinė, galinis Vt\npunktas.",
+        "KOMENTARAS": "Transporto surinkimas iš N.Vilnios,\nDvarčionių krypties. Parkingo nėra,\nreikalinga papildoma teritorija parkingo\nįrengimui.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.34108481243048,
+          54.724811321915325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Antakalnio viešojo\ntransporto mazgas",
+        "KOMENTARAS": "Transporto surinkimas nuo Nemenčinės,\nZarasų krypties. Kol kas jokio parkingo\nnėra.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.318369155015972,
+          54.722494714333635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Santariškių ligoninių\nmiestelis.",
+        "KOMENTARAS": "Reikalinga nauja bendro naudojimo\naikštelė Santariškių galiniame punkte ir\nties žiedine sankryža.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27944996682003,
+          54.749645388216024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Pramogų parkas, Siemens\narena",
+        "KOMENTARAS": "Yra esamas išvystytas parkingų tinklas,\nkuris turėtų būti pritaikytas P+R\nsistemai Kalvarijų - Gerulaičio g.\nsankryžos zonoje.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.283737406050413,
+          54.716727522607584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Šiaurinis viešojo\ntransporto keleivių\nterminalas Fabijoniškėse",
+        "KOMENTARAS": "Transporto surinkimas iš Rygos,\nPanevėžio, Molėtų krypties. Naujai\nnumatomas keleivių terminalas\nužmiesčio, priemiesčio ir miesto viešojo\ntransportui aptarnauti.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.243878869909985,
+          54.73128045459716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Miesto stadionas.\nUkmergės-Ozo g.\nsankryžos zona",
+        "KOMENTARAS": "Yra esamas išvystytas parkingų tinklas,\nkuris turėtų būti pritaikytas P+R\nsistemai prie statomo stadiono, PPC\n„Akropolis“",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.254838248311554,
+          54.709436201011684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Spaudos rūmai",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno,\nRygos, Sudervės krypčių. Esamos\nmokamos aikštelės pritaikymas P+R\nsistemai.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.222554526310873,
+          54.701965583780726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Pilaitės pr. – Papilėnų g.\nsankryža",
+        "KOMENTARAS": "Esama automobilių parkavimo aikštelė\npritaikoma P+R sistemai.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.187648916145832,
+          54.70813288842286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Pilaitės pr. – Senojo Pilaitės kelio sankryža",
+        "KOMENTARAS": "Planuojamas antžeminis parkingas sankryžos zonoje",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.172399150060254,
+          54.710399359690314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "LITEXPO parodų rūmai,\nLazdynai",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno,\nTrakų, Gardino krypčių Esami dideli\nautomobilių parkingai tinkami P+R\nsistemai aptarnauti.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.226445872329943,
+          54.67719867768517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Vaduvos viešojo\ntransporto galinis punktas",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno,\nTrakų, Gardino krypčių. Reikalinga\nteritorija parkingų įrengimui.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.206891342090156,
+          54.64432869692917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Naujoji Akropolio teritorija\nprie Vingio parko",
+        "KOMENTARAS": "Reikalingas susitarimas su sklypu\nsavininkais dėl dalies parkingo įrengimo\nir panaudojimo P+R sistemai.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.239230583641763,
+          54.673280228976374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Laisvės - Ozo sankryžos\nzona",
+        "KOMENTARAS": "Gali būti panaudotas daugiaaukštis\nparkingas prie PC Mada ir parkingas\naplink jį . Reikalingas susitarimas su\nsavininkais.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.227749047657635,
+          54.70930033964168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Lelevelio gatvė",
+        "KOMENTARAS": "Gali būti naudojamas esamas\nantžeminis arba numatytas požeminis\nparkingas, arba esami parkingai Tilto ar\nVilniaus gatvėse.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27822245682087,
+          54.688683008205885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Konstitucijos-Lvovo g.\nsankryža",
+        "KOMENTARAS": "Numatoma dalis teritorijos prieš „Naujas\nVilnius“ arba po skveru prieš Vilniaus\nsavivaldybę.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27991649051584,
+          54.69528617172402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Žalgirio – Kalvarijų g.\nsankryžos zona",
+        "KOMENTARAS": "Galima panaudoti dalį numatomo\nparkingo esamos turgavietės teritorija.\nBūtina derinti su privačiais verslininkais.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.281689664770703,
+          54.70343825773025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Didlaukio- Baltupio g.\nsankryžos zona",
+        "KOMENTARAS": "Reikalingas detalus planas.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.2681925968356,
+          54.7291322498348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Jeruzalės-Ateities g.\nsankryžos zona",
+        "KOMENTARAS": "Reikalingas detalus planas.",
+        "GRUPE": "pagrindiniai P+R",
+        "marker-color": "#ca0065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.276664359248755,
+          54.739284789857216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#8080ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "VIETA": "Gariūnų prekybos centras",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno,Trakų, Gardino, Rygos, krypčių. Esamųaikštelių Gariūnų—Jočionių g. sankryžoszonoje pritaikymas P+R sistemai",
+        "GRUPE": "kiti P+R B+R"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.154605907775476,
+          54.658388193734595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Grigiškės, Vilniaus –Kovo\n11 sankryžos zona\r",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno\nkrypties ir persėdimas į autobusus. Yra\ndaugiaaukštis garažas, tinkamas\npritaikyti P+R sistemai",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.098293767394015,
+          54.67112912254313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Savanorių pr. Vilniaus\nprekybos PC Maxima\nbazės teritorijoje",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Kauno\nkrypties ir persėdimas į autobusus.\nEsamas parkingas tinkamas P+R\nsistemai aptarnauti, skiriant dalį esamų\nparkavimo vietų\r.",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1396157996174,
+          54.65712673786377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Lentvaris, šalia naujo\ntransporto mazgo su\ngeležinkelio stotimi",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nLentvario, Trakų krypties. Būtina\nnumatyti papildomą teritorijai parkingui\nįrengti.",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.047634710762665,
+          54.64449146762593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Liepkalnio – Minsko pl.\nsankryžos zona šalia PC\r",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Minsko,\nLydos krypčių persėdant į autobusų maršrutus. Būtina numatyti esamo\nparkingo plėtrą",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.304197245534944,
+          54.65366705372751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "St.Batoro - Visalaukio g. 2\nlygių sankryža",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nN.Vilnios krypties. Galima vieta parko ir\nP+R sistemai aptarnauti – esamų\ngaražų teritorija ar jų prieigos",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.314049069520177,
+          54.681939175025825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Balsiai. Riešės-Žaliųjų\nežerų g. sankryžos zona",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nNemenčinės, Balsių krypties į\nautobusus. Reikalinga nauja teritorija\nparkingų įrengimui.",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.336387151830166,
+          54.776761674231594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Šiaurės miestelio galinis\npunktas",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nAntakalnio, Žirmūnų, Valakupių rajonų į\nautobusus ir troleibusus. Esami\nparkingai lengvai pritaikomi P+R\nsistemai organizuoti\r",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.301895157301466,
+          54.71099552991452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Žirmūnų – Minties g.\nsankryža",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nAntakalnio, Žirmūnų, Valakupių rajonų į\nautobusus ir troleibusus. Esamas\nparkingas šalia degalinės pritaikomas\nP+R sistemai organizuoti",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.304083109278917,
+          54.70596102196795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Kosciuškos g. ties Vilnele",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nAntakalnio, Belmonto krypčių. Esamas\nmokamas parkingas gali būti\npritaikomas P+R sistemai\r",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.29411732170897,
+          54.68762532481204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Justiniškių viešojo\ntransporto mazgas\r",
+        "KOMENTARAS": "Transporto srautų surinkimas iš\nTarandės, Zujūnų, Buivydiškių rajonų.\nP+R sistemai reikalingas parkingo\nįrengimas persėdimui į autobusus ir\ntroleibusus.",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.221703401520813,
+          54.71655710582374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Molėtų pl. –Molėtų g.\n(Riešė) sankryžos zona",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Molėtų\nkrypties, Gulbinų, Riešės rajonų.\nReikalinga teritorija parkingo įrengimui\nP+R sistemai aptarnauti",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27357874002634,
+          54.78107927124609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Ukmergės – Zamenhofo\ng. sankryža, PC BIG\r",
+        "KOMENTARAS": "Transporto srautų surinkimas iš Rygos,\nUkmergės krypties, Pavilionių, bajorų\nrajonų. Reikalinga teritorija parkingo\nįrengimui\r",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22968215982106,
+          54.73939581758575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Ukmergės - Ozo g.\nsankryžos zona\r",
+        "KOMENTARAS": "P+R sistemai gali būti naudojamas\nesamas mokamas parkingas",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.24985645489746,
+          54.71075117280602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Narbuto – Stumbrų g.\nsankryžos zona",
+        "KOMENTARAS": "Žinybinis požeminis parkingas prie PPC\nPanorama. Tinkamas P+R sistemai\nrealizuoti.\r",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.254865159477085,
+          54.69959265887077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Kalvarijų turgavietė,\nRinktinės – H.Manto g.\nsankryža\r",
+        "KOMENTARAS": "Yra daugiaaukštis garažas RinktinėsManto\ng, sankryžoje. Galimas naujo\npožeminio parkingo įrengimas Kalvarijų\nturgavietės teritorijoje\r",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28608337871438,
+          54.7014523276427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIETA": "Žvėryno viešojo\ntransporto žiedas",
+        "KOMENTARAS": "Esamas paršingas tinkamas P+R\nsistemai realizuoti",
+        "GRUPE": "kiti P+R B+R",
+        "marker-color": "#8080ff"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.245511471903228,
+          54.69852680993547
+        ]
+      }
+    }
+  ]
+}

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Micius</title>
-    <link>micius.lt/</link>
+    <link>/</link>
     <description>Recent content on Micius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>lt-lt</language>
     <lastBuildDate>Wed, 28 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="micius.lt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>@</title>
-      <link>micius.lt/contact/</link>
+      <link>/contact/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>micius.lt/contact/</guid>
+      <guid>/contact/</guid>
       <description>Norėdami susisiekti, užpildykite žemiau esančią formą:
     </description>
     </item>

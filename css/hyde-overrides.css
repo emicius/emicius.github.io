@@ -1,0 +1,20 @@
+/*
+ * Tweaks and overrides to hyde.css
+ */
+
+html {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.sidebar-about h1 {
+  color: #asd;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif, arial;
+  font-size: 2.5rem;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 2rem;
+}

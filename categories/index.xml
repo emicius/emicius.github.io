@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Micius</title>
+    <link>http://micius.lt/categories/</link>
+    <description>Recent content in Categories on Micius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>lt-lt</language>
+    
+	<atom:link href="http://micius.lt/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Main</title>
+      <link>http://micius.lt/categories/main/</link>
+      <pubDate>Thu, 06 Aug 2015 16:15:52 +0300</pubDate>
+      
+      <guid>http://micius.lt/categories/main/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qgis</title>
+      <link>http://micius.lt/categories/qgis/</link>
+      <pubDate>Wed, 12 Aug 2015 16:15:52 +0300</pubDate>
+      
+      <guid>http://micius.lt/categories/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Šablonai</title>
+      <link>http://micius.lt/categories/%C5%A1ablonai/</link>
+      <pubDate>Wed, 12 Aug 2015 16:15:52 +0300</pubDate>
+      
+      <guid>http://micius.lt/categories/%C5%A1ablonai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

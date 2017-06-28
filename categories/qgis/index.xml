@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qgis on Micius</title>
-    <link>https://micius.lt/categories/qgis/</link>
+    <link>micius.lt/categories/qgis/</link>
     <description>Recent content in Qgis on Micius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>lt-lt</language>
     <lastBuildDate>Wed, 12 Aug 2015 16:15:52 +0300</lastBuildDate>
     
-	<atom:link href="https://micius.lt/categories/qgis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="micius.lt/categories/qgis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>QGIS stiliai kompleksinio planavimo dokumentų vaizdavimui</title>
-      <link>https://micius.lt/blog/2015/08/12/qgis-stiliai-kompleksinio-planavimo-dokument%C5%B3-vaizdavimui/</link>
+      <link>micius.lt/blog/2015/08/12/qgis-stiliai-kompleksinio-planavimo-dokument%C5%B3-vaizdavimui/</link>
       <pubDate>Wed, 12 Aug 2015 16:15:52 +0300</pubDate>
       
-      <guid>https://micius.lt/blog/2015/08/12/qgis-stiliai-kompleksinio-planavimo-dokument%C5%B3-vaizdavimui/</guid>
+      <guid>micius.lt/blog/2015/08/12/qgis-stiliai-kompleksinio-planavimo-dokument%C5%B3-vaizdavimui/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Main on Micius</title>
-    <link>http://micius.lt/categories/main/</link>
+    <link>https://micius.lt/categories/main/</link>
     <description>Recent content in Main on Micius</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>lt-lt</language>
     <lastBuildDate>Thu, 06 Aug 2015 16:15:52 +0300</lastBuildDate>
     
-	<atom:link href="http://micius.lt/categories/main/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://micius.lt/categories/main/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Welcome</title>
-      <link>http://micius.lt/blog/2015/08/06/welcome/</link>
+      <link>https://micius.lt/blog/2015/08/06/welcome/</link>
       <pubDate>Thu, 06 Aug 2015 16:15:52 +0300</pubDate>
       
-      <guid>http://micius.lt/blog/2015/08/06/welcome/</guid>
+      <guid>https://micius.lt/blog/2015/08/06/welcome/</guid>
       <description>Yada yada misnomer whatever HTML
 var a string var b string var c string var d string TODO:
 CSS for featured image sd

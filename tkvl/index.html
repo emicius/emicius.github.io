@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+			body {
+				font-family: Calibri, Arial, sans;
+			}
+			p {
+				font-size: 11pt;
+			}
+			.button {
+				background-color: #e21a2d; /* Red */
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			}
+			.field{
+				padding-top:8px;
+			}
+			
+			.field input {
+				margin-top: 5px;
+			}
+			hr{
+				border-top: 2px solid #8c8b8b;
+				border-bottom: 0px solid #fff;
+				margin: 30px 0;
+			}
+			label{
+				font-weight:bold;
+			}
+		</style>
+  </head>
+  <body style="max-width:420px; margin: 0 auto">
+    <h1></h1>
+    <form id="generator">
+      <div style="float:left">
+		<div class="field">
+        <label for="name">Vardas Pavardė</label><br/>
+        <input type="text" name="name" value="" placeholder="Vardenis Pavardenis">
+      </div>
+      <div class="field">
+        <label for="position">Pareigos</label><br/>
+        <input type="text" name="position" value="" placeholder="Mano pareigos">
+      </div>
+      <div class="field">
+        <label for="phone">Telefono nr.</label><br/>
+        <input type="text" name="phone" value="" placeholder="+370 5 123 45 67">
+      </div>
+      <div class="field">
+        <label for="mobile">Mob. Telefono nr.</label><br/>
+        <input type="phone" name="mobile" value="" placeholder="+370 612 3456">
+      </div>
+	        <div class="field">
+        <label for="email">El. paštas</label><br/>
+        <input type="text" name="email" value="" placeholder="mano.pastas@tokvila.lt">
+      </div>
+	  </div>
+      <div style="margin-left: 90px;float:left;padding-top:147px">
+	  <div class="">
+      <input type="submit" name="submit" value="Generuoti" style="margin-top:10px" class="button">
+	  </div>
+	  <br style="clear: both;" />
+    </form><br/>
+    <!-- <textarea id="result" name="result" rows="8" cols="80"></textarea> -->
+    <h2>Kopijuoti tarp linijų</h2>
+    <hr>
+    <div id="preview"></div>
+    <hr>
+  </body>
+  <script type="text/javascript">
+      var form = document.getElementById('generator');
+      // var result = document.getElementById('result');
+      var preview = document.getElementById('preview');
+      form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        var name = form.name.value,
+            position = form.position.value,
+            email = form.email.value,
+            phone = form.phone.value,
+            phoneval = phone.replace(/\s+/g,''),
+            mobile = form.mobile.value,
+            mobileval = mobile.replace(/\s+/g,'');
+
+        //debug
+        name = 'Robertas Poškus';
+        position = 'Marketingo vadovas';
+        phone = '+370 5 210 32 16';
+        phoneval = '+37052103216';
+        mobile = '+370 618 62 669';
+        mobileval = '+37061862669';
+        email = 'robertas.poskus@tokvila.lt';
+
+        var text = '<p>Pagarbiai</p><table width="420" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt"><img width="157pxs" src="' + logo + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:7pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr><tr><td colspan="2" width="380"><p style="font-size: 7.5pt">' + disclaimer_lt + '</p><td></tr><td colspan="2" width="380"><p style="font-size: 7.5pt">' + disclaimer_en + '</p><td></tr></table>' 
+        // result.value = text;
+        preview.innerHTML = text;
+      });
+
+      var logo = 'logo.png';
+
+      var disclaimer_lt = 'Šiame laiške ir (ar) jo prieduose pateikiama informacija skirta tik laiško adresatui ir jos turinio atskleidimas yra ribojamas. Jeigu šis laiškas pasiekė Jus per klaidą, prašome šio laiško ar jo priedų nekopijuoti, neplatinti jo turinio kitiems asmenims ir nedelsiant pranešti apie klaidą šio laiško siuntėjui telefonu ar elektroniniu paštu, o patį laišką ir visus jo priedus pašalinti iš savo sistemos.  Iš anksto dėkojame, Tokvila.';
+      var disclaimer_en = 'This letter and/or its attachments are designated only for its recipient and are exempt from disclosure. If you are not the intended recipient, we kindly ask you not to copy this letter or its attachments, not to disclose, distribute or disseminate the contents to any other person. We ask you to inform the sender of the error by a call and/or email and delete this message and any attachments from your system.  Thank you in advance, Tokvila.';
+
+  </script>
+</html>

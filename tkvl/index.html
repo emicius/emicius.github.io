@@ -57,18 +57,20 @@
         <label for="mobile">Mob. Telefono nr.</label><br/>
         <input type="phone" name="mobile" value="" placeholder="+370 612 3456">
       </div>
-	        <div class="field">
+	  <div class="field">
         <label for="email">El. paštas</label><br/>
         <input type="text" name="email" value="" placeholder="mano.pastas@tokvila.lt">
       </div>
+	  <div class="field">
+        <label for="big">Iki brūkšnio</label><br/>
+        <input type="checkbox" name="big" value="false">
+      </div>
 	  </div>
-      <!-- <div style="float:left;"> -->
 	  <div style="float:left;padding:207px 0 0 20px;">
       <input type="submit" name="submit" value="Generuoti" style="margin-top:10px" class="button">
 	  </div>
 	  <br style="clear: both;" />
     </form><br/>
-    <!-- <textarea id="result" name="result" rows="8" cols="80"></textarea> -->
     <h2>Kopijuoti tarp linijų</h2>
     <hr>
     <div id="preview"></div>
@@ -87,8 +89,9 @@
             phoneval = phone.replace(/\s+/g,''),
             mobile = form.mobile.value,
             mobileval = mobile.replace(/\s+/g,'');
+		var big = form.big.checked;
 
-        var text = '<p>Pagarbiai</p><table width="420" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt"><img width="157" nosend="1" src="' + logo1 + '"><img width="157" nosend="1" src="' + logo2 + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:7pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr><tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_lt + '</p><td></tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_en + '</p><td></tr></table>' 
+        var text = '<p>Pagarbiai</p><table width="420" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt"><img width="'+ (big ? '180': '157') + '" nosend="1" src="' + logo1 + '"><img width="'+ (big ? '180': '157') + '" nosend="1" src="' + logo2 + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:7pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr><tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_lt + '</p><td></tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_en + '</p><td></tr></table>' 
         // result.value = text;
         preview.innerHTML = text;
       });

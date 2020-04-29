@@ -104,11 +104,11 @@
       var preview = document.getElementById('preview');
       
       function wrapDisclaimer(disclaimer){
-         return '<tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;margin-bottom:0">' + disclaimer + '</p><td></tr><tr>'
+         return '<tr><td colspan="2" width="380" style="padding-top:8pt;"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;margin:0">' + disclaimer + '</p><td></tr><tr>'
       }
       
       function wrapBanner(banner){
-         return '<tr><td colspan="2" width="380"><a href="https://www.tokvila.lt/lt/toyota-automobiliu-akcijos"><img style= "max-width:400px" src = "' + banner + '" p></a><td></tr><tr>'
+         return '<tr><td colspan="2" width="380"style="padding-top:3pt;"><a href="https://www.tokvila.lt/lt/toyota-automobiliu-akcijos"><img style= "max-width:400px" src = "' + banner + '" p></a><td></tr><tr>'
       }
             
       form.addEventListener("submit", function(e) {

@@ -37,7 +37,7 @@
 			}
 		</style>
   </head>
-  <body style="max-width:420px; margin: 0 auto">
+  <body style="max-width:450px; margin: 0 auto">
     <h1></h1>
     <form id="generator">
       <div style="float:left">
@@ -63,9 +63,33 @@
       </div>
 	  </div>
       <!-- <div style="float:left;"> -->
-	  <div style="float:left;padding:207px 0 0 20px;">
+	  <div style="float:left;padding:0px 0 0 20px;">
+	   <div class="field">
+        <label for="disclaimer_lt">LT konfidencialumo tekstas</label><br/>
+        <input type="checkbox" name="disclaimer_lt">
+      </div>
+      <div class="field">
+        <label for="disclaimer_en">EN konfidencialumo tekstas</label><br/>
+        <input type="checkbox" name="disclaimer_en">
+      </div>
+      <div class="field">
+        <label for="banner">Baneris</label><br/>
+        <select id="banner" name = "banner">
+         <option value="">- nėra -</option>
+         <option value="Baneris.jpg">Baneris 1</option>
+         <option value="Baneris_01.jpg">Baneris 2</option>
+         <option value="Baneris_02.png">Baneris 3</option>
+         <option value="Baneris_03.png">Baneris 4</option>
+         <option value="upload">Įkeltas</option>
+       </select>
+      </div>
+      <div class="field">
+         <input type="file" id="getimage">
+      </div>
+     <div>
       <input type="submit" name="submit" value="Generuoti" style="margin-top:10px" class="button">
 	  </div>
+     </div>
 	  <br style="clear: both;" />
     </form><br/>
     <!-- <textarea id="result" name="result" rows="8" cols="80"></textarea> -->
@@ -78,6 +102,15 @@
       var form = document.getElementById('generator');
       // var result = document.getElementById('result');
       var preview = document.getElementById('preview');
+      
+      function wrapDisclaimer(disclaimer){
+         return '<tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer + '</p><td></tr><tr>'
+      }
+      
+      function wrapBanner(banner){
+         return '<tr><td colspan="2" width="380"><a href="https://www.tokvila.lt/lt/toyota-automobiliu-akcijos"><img src = "' + banner + '" p></a><td></tr><tr>'
+      }
+            
       form.addEventListener("submit", function(e) {
         e.preventDefault();
         var name = form.name.value,
@@ -87,12 +120,35 @@
             phoneval = phone.replace(/\s+/g,''),
             mobile = form.mobile.value,
             mobileval = mobile.replace(/\s+/g,'');
-
-        var text = '<p>Pagarbiai</p><table width="400" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt/lt"><img width="157" nosend="1" src="' + logo + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:3pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt/lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr><tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_lt + '</p><td></tr><td colspan="2" width="380"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;">' + disclaimer_en + '</p><td></tr></table>' 
+            
+        var disclaimer = disclaimer = (form.disclaimer_lt.checked) ? wrapDisclaimer(disclaimer_lt) + ((form.disclaimer_en.checked) ? wrapDisclaimer(disclaimer_en):"") : (form.disclaimer_en.checked) ? wrapDisclaimer(disclaimer_en) : "";
+        var banner = "";
+        
+        if(form.banner.options[form.banner.selectedIndex].value == "upload"){
+            banner = wrapBanner(uploaded_img);
+        } else if(form.banner.options[form.banner.selectedIndex].value != "") {
+            banner = wrapBanner(form.banner.options[form.banner.selectedIndex].value);
+        }
+        
+        
+        var text = '<p>Pagarbiai</p><table width="400" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt/lt"><img width="157" nosend="1" src="' + logo + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:3pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt/lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr>' + banner + disclaimer + '</table>' 
         // result.value = text;
         preview.innerHTML = text;
       });
+      
+      var imageLoader = document.getElementById('getimage');
+      imageLoader.addEventListener('change', handleImage, false);
+      
+      var uploaded_img;
 
+      function handleImage(e){
+         var reader = new FileReader();
+         reader.onload = function(event){
+            uploaded_img = event.target.result;
+         }
+         reader.readAsDataURL(e.target.files[0]);     
+      }
+      
       var logo = 'logo2.png';
       var disclaimer_lt = 'Šiame laiške ir (ar) jo prieduose pateikiama informacija skirta tik laiško adresatui ir jos turinio atskleidimas yra ribojamas. Jeigu šis laiškas pasiekė Jus per klaidą, prašome šio laiško ar jo priedų nekopijuoti, neplatinti jo turinio kitiems asmenims ir nedelsiant pranešti apie klaidą šio laiško siuntėjui telefonu ar elektroniniu paštu, o patį laišką ir visus jo priedus pašalinti iš savo sistemos.  Iš anksto dėkojame, Tokvila.';
       var disclaimer_en = 'This letter and/or its attachments are designated only for its recipient and are exempt from disclosure. If you are not the intended recipient, we kindly ask you not to copy this letter or its attachments, not to disclose, distribute or disseminate the contents to any other person. We ask you to inform the sender of the error by a call and/or email and delete this message and any attachments from your system.  Thank you in advance, Tokvila.';

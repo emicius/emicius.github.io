@@ -2,10 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex, noarchive">
     <title></title>
     <style>
+	    		@font-face {
+			    font-family: 'Toyota Type';
+			    src: url('ToyotaType-Regular.woff2') format('woff2'),
+			    url('ToyotaType-Regular.woff') format('woff');
+			    font-weight: normal;
+			    font-style: normal;
+			    font-display: swap;
+			}
 			body {
-				font-family: Calibri, Arial, sans;
+				font-family: 'Toyota Type';
+    				font-weight: normal;
+    				font-style: normal;
 			}
 			p {
 				font-size: 11pt;
@@ -104,7 +115,7 @@
       var preview = document.getElementById('preview');
       
       function wrapDisclaimer(disclaimer){
-         return '<tr><td colspan="2" width="380" style="padding-top:8pt;"><p style="font-size: 7.5pt;text-align:justify;text-justify:inter-word;margin:0">' + disclaimer + '</p><td></tr><tr>'
+         return '<tr><td colspan="2" width="380" style="padding-top:8pt;"><p style="font-size: 6.5pt;text-align:justify;text-justify:inter-word;margin:0">' + disclaimer + '</p><td></tr><tr>'
       }
       
       function wrapBanner(banner){
@@ -131,7 +142,7 @@
         }
         
         
-        var text = '<p>Pagarbiai</p><table width="400" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:11pt; font-family: Calibri, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:12pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt/lt"><img width="157" nosend="1" src="' + logo + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:9pt; color: #4E4E50; margin-bottom: 5pt; padding-top:3pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt/lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr>' + banner + disclaimer + '</table>' 
+        var text = '<p style="font-size:10pt;">Pagarbiai</p><table width="400" cellpadding="0" cellspacing="0" border="0" style="color: #4E4E50; font-size:10pt; font-family: Toyota Type, Arial, sans;"></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr><td width="260" style="padding: 10pt 0 8pt 0;"><span style="font-size:11pt; font-weight: bold; ">' + name + '</span><br/>' + position + '<br/><a href="tel:' + phoneval + '" style="color: #4E4E50; text-decoration: none; "> T ' + phone + '</a><br/><a href="tel:' + mobileval + '" style="color: #4E4E50; text-decoration: none; "> M ' + mobile + '</a><br/><a href="mailto:' + email + '" style="color: #4E4E50; text-decoration: none; ">' + email + '</a></td><td width="160" colspan="3" valign="middle" style="padding: 10pt 0 6pt 0;vertical-align:middle;"><a href="http://www.tokvila.lt/lt"><img width="157" nosend="1" src="' + logo + '"></a></td></tr><tr><td colspan="4" style="border-top: 1pt solid #EBECEE;"></td></tr><tr height="26px"><td colspan="2" width="375" style="font-size:8pt; color: #4E4E50; margin-bottom: 5pt; padding-top:3pt; padding-bottom:5px;"><span style="font-weight:bold; margin:0">UAB „Tokvila“</span> | Žalgirio g. 122, LT-09300 Vilnius | <a href="http://www.tokvila.lt/lt" style="color: #4E4E50; text-decoration: none; ">www.tokvila.lt</a></td></tr>' + banner + disclaimer + '</table>' 
         // result.value = text;
         preview.innerHTML = text;
       });
